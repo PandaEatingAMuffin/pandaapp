@@ -36,5 +36,5 @@ jobs:
         with:
           app-name: 'pandaapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B7EE7733515542C8BF36656DB3B0D11F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8AAC4248E8514733AF2C0BAE9785B822 }}
           package: .
