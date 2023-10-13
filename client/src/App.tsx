@@ -12,12 +12,18 @@ function App() {
     sayHello();
   }, []);
   
+  const plaatjes = ["Titanbird.png", "Superconscious.png"];
+  const listItems = plaatjes.map(plaatje =>
+    <img src={plaatje} width="300px"/>
+  );
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {listItems}
+        <h1>Super cool!</h1>
         <p>
-          Tickle <code>src/App.tsx</code> and save to reload.
+          Sneeze <code>src/App.tsx</code> and save to reload.
         </p>
         <a
           className="App-link"
